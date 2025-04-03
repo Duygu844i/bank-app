@@ -1,10 +1,10 @@
 
 
-# Initialize variables
+
 account_holder = input("Enter your name: ")
 balance = 0.0
 
-# Function to display the menu
+
 def display_menu():
     print("\nOptions:")
     print("1. Deposit")
@@ -12,7 +12,7 @@ def display_menu():
     print("3. Check Balance")
     print("4. Exit")
 
-# Main loop
+
 while True:
     display_menu()
     choice = input("Choose an option (1-4): ")
